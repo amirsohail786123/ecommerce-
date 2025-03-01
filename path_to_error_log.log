@@ -1,0 +1,417 @@
+[20-Aug-2024 14:24:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'post.colors' doesn't exist in C:\xampp\htdocs\project forntened\carddetail.php:113
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(113): mysqli->query('SELECT DISTINCT...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 113
+[20-Aug-2024 14:25:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'post.colors' doesn't exist in C:\xampp\htdocs\project forntened\carddetail.php:113
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(113): mysqli->query('SELECT DISTINCT...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 113
+[20-Aug-2024 14:25:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'post.colors' doesn't exist in C:\xampp\htdocs\project forntened\carddetail.php:113
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(113): mysqli->query('SELECT DISTINCT...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 113
+[20-Aug-2024 14:25:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'post.colors' doesn't exist in C:\xampp\htdocs\project forntened\carddetail.php:113
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(113): mysqli->query('SELECT DISTINCT...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 113
+[20-Aug-2024 14:25:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'post.colors' doesn't exist in C:\xampp\htdocs\project forntened\carddetail.php:113
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(113): mysqli->query('SELECT DISTINCT...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 113
+[22-Aug-2024 09:09:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:90
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(90): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 90
+[22-Aug-2024 09:10:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:90
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(90): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 90
+[22-Aug-2024 09:15:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:90
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(90): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 90
+[22-Aug-2024 09:24:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:90
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(90): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 90
+[22-Aug-2024 09:26:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:90
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(90): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 90
+[22-Aug-2024 09:26:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:90
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(90): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 90
+[22-Aug-2024 15:16:48 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 63
+[22-Aug-2024 15:17:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 63
+[22-Aug-2024 15:19:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 63
+[22-Aug-2024 15:27:31 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 63
+[22-Aug-2024 15:31:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 62
+[22-Aug-2024 15:32:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 62
+[22-Aug-2024 15:37:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 63
+[22-Aug-2024 15:38:42 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 63
+[22-Aug-2024 15:44:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:92
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(92): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 92
+[23-Aug-2024 06:27:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:92
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(92): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 92
+[23-Aug-2024 06:27:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:92
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(92): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 92
+[23-Aug-2024 06:27:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:92
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(92): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 92
+[23-Aug-2024 06:27:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:92
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(92): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 92
+[23-Aug-2024 06:27:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:92
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(92): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 92
+[23-Aug-2024 06:29:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 68
+[23-Aug-2024 06:41:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:92
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(92): mysqli->prepare('SELECT * FROM p...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 92
+[24-Aug-2024 11:32:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 68
+[25-Aug-2024 09:07:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 68
+[25-Aug-2024 09:09:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 68
+[25-Aug-2024 09:10:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 68
+[25-Aug-2024 09:12:17 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 68
+[25-Aug-2024 09:15:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 68
+[25-Aug-2024 09:31:19 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:5) in C:\xampp\htdocs\project forntened\carddetail.php on line 68
+[28-Aug-2024 13:22:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\project forntened\navbardesign.php:4) in C:\xampp\htdocs\project forntened\carddetail.php on line 63
+[06-Sep-2024 07:52:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in C:\xampp\htdocs\project forntened\carddetail.php:76
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(76): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 76
+[06-Sep-2024 07:56:55 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in C:\xampp\htdocs\project forntened\carddetail.php:76
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(76): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 76
+[06-Sep-2024 07:58:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in C:\xampp\htdocs\project forntened\carddetail.php:59
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(59): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 59
+[06-Sep-2024 08:01:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Commands out of sync; you can't run this command now in C:\xampp\htdocs\project forntened\carddetail.php:57
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(57): mysqli->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 57
+[06-Sep-2024 08:09:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  Undefined variable $image_paths in C:\xampp\htdocs\project forntened\carddetail.php on line 339
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 339
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\project forntened\carddetail.php on line 347
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  Undefined variable $price in C:\xampp\htdocs\project forntened\carddetail.php on line 348
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  Undefined variable $sizeOptions in C:\xampp\htdocs\project forntened\carddetail.php on line 351
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 351
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  Undefined variable $quantity in C:\xampp\htdocs\project forntened\carddetail.php on line 355
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  Undefined variable $colorOptions in C:\xampp\htdocs\project forntened\carddetail.php on line 358
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 358
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\project forntened\carddetail.php on line 363
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  Undefined variable $price in C:\xampp\htdocs\project forntened\carddetail.php on line 364
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  Undefined variable $description in C:\xampp\htdocs\project forntened\carddetail.php on line 370
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  Undefined variable $ratings_reviews in C:\xampp\htdocs\project forntened\carddetail.php on line 374
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 374
+[06-Sep-2024 08:09:44 Europe/Berlin] PHP Warning:  Undefined variable $averageRating in C:\xampp\htdocs\project forntened\carddetail.php on line 385
+[06-Sep-2024 08:10:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[06-Sep-2024 08:27:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[06-Sep-2024 08:32:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[06-Sep-2024 08:32:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[07-Sep-2024 07:30:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[07-Sep-2024 07:31:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[07-Sep-2024 07:31:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[07-Sep-2024 07:49:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[07-Sep-2024 08:00:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[07-Sep-2024 08:10:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[07-Sep-2024 13:05:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  Undefined variable $image_paths in C:\xampp\htdocs\project forntened\carddetail.php on line 339
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 339
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\project forntened\carddetail.php on line 347
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  Undefined variable $price in C:\xampp\htdocs\project forntened\carddetail.php on line 348
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  Undefined variable $sizeOptions in C:\xampp\htdocs\project forntened\carddetail.php on line 351
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 351
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  Undefined variable $quantity in C:\xampp\htdocs\project forntened\carddetail.php on line 355
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  Undefined variable $colorOptions in C:\xampp\htdocs\project forntened\carddetail.php on line 358
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 358
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\project forntened\carddetail.php on line 363
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  Undefined variable $price in C:\xampp\htdocs\project forntened\carddetail.php on line 364
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  Undefined variable $description in C:\xampp\htdocs\project forntened\carddetail.php on line 370
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  Undefined variable $ratings_reviews in C:\xampp\htdocs\project forntened\carddetail.php on line 374
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 374
+[07-Sep-2024 14:05:47 Europe/Berlin] PHP Warning:  Undefined variable $averageRating in C:\xampp\htdocs\project forntened\carddetail.php on line 385
+[07-Sep-2024 14:06:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[09-Sep-2024 04:52:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[09-Sep-2024 07:27:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[22-Sep-2024 04:57:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[22-Sep-2024 05:08:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[04-Oct-2024 08:57:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[04-Oct-2024 08:58:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[04-Oct-2024 09:31:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[05-Oct-2024 08:23:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[13-Oct-2024 05:57:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[13-Oct-2024 06:07:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[13-Oct-2024 06:15:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[13-Oct-2024 07:22:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[13-Oct-2024 07:31:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[13-Oct-2024 07:31:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[13-Oct-2024 12:51:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:180
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(180): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 180
+[14-Oct-2024 14:26:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:192
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(192): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 192
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  Undefined variable $image_paths in C:\xampp\htdocs\project forntened\carddetail.php on line 352
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 352
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\project forntened\carddetail.php on line 360
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  Undefined variable $price in C:\xampp\htdocs\project forntened\carddetail.php on line 361
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  Undefined variable $sizeOptions in C:\xampp\htdocs\project forntened\carddetail.php on line 364
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 364
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  Undefined variable $quantity in C:\xampp\htdocs\project forntened\carddetail.php on line 368
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  Undefined variable $colorOptions in C:\xampp\htdocs\project forntened\carddetail.php on line 371
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 371
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\project forntened\carddetail.php on line 376
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  Undefined variable $price in C:\xampp\htdocs\project forntened\carddetail.php on line 377
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  Undefined variable $description in C:\xampp\htdocs\project forntened\carddetail.php on line 383
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  Undefined variable $ratings_reviews in C:\xampp\htdocs\project forntened\carddetail.php on line 387
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 387
+[15-Oct-2024 06:43:08 Europe/Berlin] PHP Warning:  Undefined variable $averageRating in C:\xampp\htdocs\project forntened\carddetail.php on line 398
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  Undefined variable $image_paths in C:\xampp\htdocs\project forntened\carddetail.php on line 352
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 352
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\project forntened\carddetail.php on line 360
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  Undefined variable $price in C:\xampp\htdocs\project forntened\carddetail.php on line 361
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  Undefined variable $sizeOptions in C:\xampp\htdocs\project forntened\carddetail.php on line 364
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 364
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  Undefined variable $quantity in C:\xampp\htdocs\project forntened\carddetail.php on line 368
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  Undefined variable $colorOptions in C:\xampp\htdocs\project forntened\carddetail.php on line 371
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 371
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\project forntened\carddetail.php on line 376
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  Undefined variable $price in C:\xampp\htdocs\project forntened\carddetail.php on line 377
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  Undefined variable $description in C:\xampp\htdocs\project forntened\carddetail.php on line 383
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  Undefined variable $ratings_reviews in C:\xampp\htdocs\project forntened\carddetail.php on line 387
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 387
+[15-Oct-2024 06:43:30 Europe/Berlin] PHP Warning:  Undefined variable $averageRating in C:\xampp\htdocs\project forntened\carddetail.php on line 398
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  Undefined variable $image_paths in C:\xampp\htdocs\project forntened\carddetail.php on line 352
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 352
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\project forntened\carddetail.php on line 360
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  Undefined variable $price in C:\xampp\htdocs\project forntened\carddetail.php on line 361
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  Undefined variable $sizeOptions in C:\xampp\htdocs\project forntened\carddetail.php on line 364
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 364
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  Undefined variable $quantity in C:\xampp\htdocs\project forntened\carddetail.php on line 368
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  Undefined variable $colorOptions in C:\xampp\htdocs\project forntened\carddetail.php on line 371
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 371
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  Undefined variable $name in C:\xampp\htdocs\project forntened\carddetail.php on line 376
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  Undefined variable $price in C:\xampp\htdocs\project forntened\carddetail.php on line 377
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  Undefined variable $description in C:\xampp\htdocs\project forntened\carddetail.php on line 383
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  Undefined variable $ratings_reviews in C:\xampp\htdocs\project forntened\carddetail.php on line 387
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\project forntened\carddetail.php on line 387
+[15-Oct-2024 06:45:49 Europe/Berlin] PHP Warning:  Undefined variable $averageRating in C:\xampp\htdocs\project forntened\carddetail.php on line 398
+[22-Oct-2024 07:34:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:192
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(192): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 192
+[22-Oct-2024 07:34:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:192
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(192): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 192
+[29-Oct-2024 04:41:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:192
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(192): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 192
+[29-Oct-2024 04:42:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:192
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(192): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 192
+[29-Oct-2024 04:42:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:192
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(192): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 192
+[05-Nov-2024 10:20:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:192
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(192): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 192
+[05-Nov-2024 11:13:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:192
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(192): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 192
+[18-Nov-2024 07:39:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:192
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(192): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 192
+[01-Dec-2024 11:45:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\project forntened\carddetail.php:193
+Stack trace:
+#0 C:\xampp\htdocs\project forntened\carddetail.php(193): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\project forntened\carddetail.php on line 193
+[11-Jan-2025 09:10:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\Project\carddetail.php:193
+Stack trace:
+#0 C:\xampp\htdocs\Project\carddetail.php(193): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\carddetail.php on line 193
+[29-Jan-2025 07:59:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\Project\carddetail.php:193
+Stack trace:
+#0 C:\xampp\htdocs\Project\carddetail.php(193): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\carddetail.php on line 193
+[29-Jan-2025 07:59:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\Project\carddetail.php:193
+Stack trace:
+#0 C:\xampp\htdocs\Project\carddetail.php(193): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\carddetail.php on line 193
+[07-Feb-2025 06:43:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\Project\carddetail.php:193
+Stack trace:
+#0 C:\xampp\htdocs\Project\carddetail.php(193): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\carddetail.php on line 193
+[07-Feb-2025 06:43:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli object is already closed in C:\xampp\htdocs\Project\carddetail.php:193
+Stack trace:
+#0 C:\xampp\htdocs\Project\carddetail.php(193): mysqli->close()
+#1 {main}
+  thrown in C:\xampp\htdocs\Project\carddetail.php on line 193

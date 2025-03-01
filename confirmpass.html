@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm New Password</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Inline CSS for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: #666;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="password"] {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #alert {
+            display: none;
+            color: red;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Reset Your Password</h1>
+        <p>Please enter and confirm your new password.</p>
+        <form id="confirm-password-form">
+            <div id="alert"></div>
+            <label for="new-password">New Password:</label>
+            <input type="password" id="new-password" name="new-password" required>
+            <label for="confirm-password">Confirm New Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            <button type="submit">Update Password</button>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('confirm-password-form');
+            const alertDiv = document.getElementById('alert');
+            const newPasswordInput = document.getElementById('new-password');
+            const confirmPasswordInput = document.getElementById('confirm-password');
+
+            form.addEventListener('submit', (e) => {
+                e.preventDefault(); // Prevent the default form submission
+
+                const newPassword = newPasswordInput.value.trim();
+                const confirmPassword = confirmPasswordInput.value.trim();
+
+                // Basic validation
+                if (newPassword === '' || confirmPassword === '') {
+                    setAlert('Both password fields are required.');
+                    return;
+                }
+
+                if (newPassword !== confirmPassword) {
+                    setAlert('Passwords do not match.');
+                    return;
+                }
+
+                // Simulate an API call to update the password
+                updatePassword(newPassword);
+            });
+
+            function updatePassword(password) {
+                // Normally, you would make an AJAX request to your server
+                // This example uses a timeout to simulate a delay
+                setTimeout(() => {
+                    setAlert('Your password has been updated successfully!', true);
+                    form.reset(); // Reset the form
+                }, 1000);
+            }
+
+            function setAlert(message, success = false) {
+                alertDiv.innerText = message;
+                alertDiv.style.color = success ? 'green' : 'red';
+                alertDiv.style.display = message ? 'block' : 'none';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Categories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <main>
+        <section id="categories">
+            <div class="container">
+                <h2>Product Categories</h2>
+                <div class="category-grid">
+                    <div class="category">
+                        <a href="#electronics">
+                            <img src="/project forntened/img/file (8).png" alt="Electronics">
+                            <h3>Electronics</h3>
+                        </a>
+                    </div>
+                    <div class="category">
+                        <a href="#clothing">
+                            <img src="/project forntened/img/file (4).png" alt="Clothing">
+                            <h3>Clothing</h3>
+                        </a>
+                    </div>
+                    <div class="category">
+                        <a href="#home-appliances">
+                            <img src="/project forntened/img/file (10).png" alt="Home Appliances">
+                            <h3>Shoes</h3>
+                        </a>
+                    </div>
+                    <div class="category">
+                        <a href="#books">
+                            <img src="/project forntened/img/file (8).png" alt="Books">
+                            <h3>Books</h3>
+                        </a>
+                    </div>
+                    <div class="category">
+                        <a href="#toys">
+                            <img src="/project forntened/img/file (4).png" alt="Toys">
+                            <h3>Toys</h3>
+                        </a>
+                    </div>
+                  
+                    <div><a class="seemor" href="">See More</a></div>
+                    <!-- Add more categories as needed -->
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    
+</body>
+</html>
+<style>
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.container {
+    padding-top: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#categories {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+#categories h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center the grid items */
+}
+
+.category {
+    flex: 1 1 calc(33.333% - 20px); /* Adjust card width to 33.333% with gap */
+    height: fit-content;
+    max-width: 250px; /* Increased max-width for the cards */
+    box-sizing: border-box;
+    text-align: center;
+
+    background: white;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out; /* Add a hover effect */
+}
+
+.category:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.category a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.category h3 {
+    margin: 10px 0;
+    font-size: 16px; /* Slightly larger font size for better readability */
+    color: #333;
+}
+
+.seemor {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    width: 150px; /* Set a fixed width for the "See More" button */
+}
+
+.seemor:hover {
+    background-color: #333; /* Darken the button color on hover */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .category-grid {
+        flex-direction: column;
+        align-items: center; /* Center items vertically on small screens */
+    }
+
+    .category {
+        flex: 1 1 100%; /* Full-width on small screens */
+        max-width: none; /* Remove max-width restriction on small screens */
+    }
+
+    .seemor {
+        width: auto; /* Allow button to fit text on small screens */
+    }
+}
+
+</style>
